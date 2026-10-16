@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="login-box">
+
+            <div class="logo">
+                <div class="whatsapp-icon">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+                </div>
+            </div>
+
+            <h1>WhatsApp</h1>
+
+            <p class="subtitle">
+                Entre para continuar usando o WhatsApp
+            </p>
+
+         
+            <label for="telefone">Número de telefone</label>
+            <div class="telefone-area">
+                <select id="pais">
+                    <option value="+55">🇧🇷 +55</option>
+                    <option value="+1">🇺🇸 +1</option>
+                    <option value="+351">🇵🇹 +351</option>
+                </select>
+
+                <input 
+                    type="tel" 
+                    id="telefone"
+                    placeholder="(11) 99999-9999"
+                >
+            </div>
+
+         
+            <label for="senha" style="margin-top: 15px;">Senha</label>
+            <input 
+                type="password" 
+                id="senha"
+                placeholder="Digite sua senha"
+            >
+
+            <p id="erro"></p>
+
+            <button id="entrar">Continuar</button>
+
+            <p class="aviso">
+                Ao continuar, você concorda com os termos de uso
+                e a política de privacidade.
+            </p>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
