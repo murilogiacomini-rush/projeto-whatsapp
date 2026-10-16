@@ -1,0 +1,109 @@
+nologias utilizadas: Visual Studio Code, Node.js, XAMPP, MariaDB/MySQL e HeidiSQL.
+
+1. Introdução
+O presente projeto tem como proposta a criação de um sistema baseado no WhatsApp, com a finalidade de colocar em prática conhecimentos relacionados à programação, ao desenvolvimento de aplicações web e ao gerenciamento de bancos de dados.
+
+O sistema apresenta uma interface gráfica inspirada em um aplicativo de troca de mensagens e disponibiliza um recurso de acesso por meio de login e senha. Para sua elaboração, são utilizadas diferentes ferramentas, como o Visual Studio Code para escrever e organizar o código, o Node.js para executar as operações do servidor e o MariaDB/MySQL para o armazenamento de dados.
+
+A atividade possui caráter acadêmico e busca demonstrar como diferentes tecnologias podem ser integradas para desenvolver uma aplicação.
+
+2. Objetivo do projeto
+A finalidade principal deste trabalho é construir um sistema com características visuais semelhantes às do WhatsApp, explorando conceitos de programação e gerenciamento de informações.
+
+Os objetivos específicos incluem:
+
+Criar uma interface gráfica baseada em uma plataforma de mensagens.
+Desenvolver um recurso de autenticação com login e senha.
+Aplicar o Node.js no processamento das operações do servidor.
+Utilizar o MariaDB/MySQL para gerenciar os dados da aplicação.
+Conhecer ferramentas voltadas à programação e à administração de bancos de dados.
+3. Ferramentas e tecnologias utilizadas
+3.1. Visual Studio Code
+O Visual Studio Code foi empregado como editor de código e ambiente de desenvolvimento. Essa ferramenta permite escrever, modificar e organizar os arquivos necessários para a construção do sistema.
+
+3.2. Node.js
+O Node.js possibilita a execução de JavaScript no ambiente do servidor, sem depender exclusivamente do navegador. Neste projeto, sua utilização está relacionada ao processamento da lógica da aplicação, ao tratamento de requisições e à possível comunicação com o banco de dados.
+
+3.3. XAMPP
+O XAMPP foi utilizado como ambiente local para auxiliar na execução dos serviços necessários ao desenvolvimento. Entre os componentes disponibilizados pelo pacote estão o servidor Apache e o MariaDB, que apresenta compatibilidade com aplicações que trabalham com MySQL.
+
+Vale destacar que o Node.js pode ser executado separadamente do Apache. A necessidade de utilizar ambos depende da estrutura e da configuração adotadas no projeto.
+
+3.4. HeidiSQL
+O HeidiSQL foi utilizado para facilitar o gerenciamento do banco de dados. Por meio dessa ferramenta, é possível consultar registros, visualizar tabelas e executar instruções SQL.
+
+É importante ressaltar que o HeidiSQL funciona como um programa de administração, enquanto o MariaDB/MySQL é responsável pelo gerenciamento efetivo dos dados.
+
+4. Funcionalidades do sistema
+4.1. Interface gráfica
+A aplicação possui uma interface visual que utiliza o WhatsApp como inspiração para a disposição e a aparência de seus elementos.
+
+Essa parte corresponde ao ambiente com o qual o usuário interage durante a utilização do sistema.
+
+Os elementos específicos, como botões, campos de preenchimento, menus e cores, devem corresponder à versão efetivamente desenvolvida.
+
+4.2. Autenticação por login e senha
+O sistema conta com uma funcionalidade de acesso por login e senha, destinada a identificar o usuário que deseja entrar na aplicação.
+
+A validação completa desse recurso depende de como ele foi programado. É necessário verificar se as informações são comparadas com os registros do banco de dados, se existe a possibilidade de criar novas contas e se há algum mecanismo para manter o usuário conectado.
+
+Para garantir maior segurança, as senhas devem ser armazenadas utilizando algoritmos apropriados de hash, evitando seu armazenamento em formato de texto simples.
+
+4.3. Recursos que ainda precisam ser verificados
+Até o momento, não há confirmação sobre a implementação de funcionalidades adicionais, como troca de mensagens, cadastro de contatos, recuperação de senha e armazenamento de conversas.
+
+Dessa forma, esses recursos não são considerados parte confirmada do sistema, sendo necessária uma análise do código para determinar se estão disponíveis.
+
+5. Banco de dados
+O projeto utiliza o MariaDB/MySQL por meio do ambiente de desenvolvimento disponibilizado pelo XAMPP. Esse banco de dados pode armazenar informações importantes para a execução das funcionalidades da aplicação.
+
+Em um sistema que possui autenticação, é comum utilizar uma tabela para registrar os usuários, contendo campos como identificador, nome e dados necessários para a validação do acesso.
+
+Entretanto, a estrutura efetivamente utilizada depende das tabelas e dos campos existentes no projeto. Essas informações podem ser verificadas por meio do HeidiSQL, que permite examinar a organização do banco e os registros armazenados.
+
+Sem essa verificação, não é possível determinar com precisão quais tabelas e informações foram implementadas.
+
+6. Estrutura e funcionamento do sistema
+O funcionamento da aplicação pode ser explicado a partir de três elementos fundamentais:
+
+Interface gráfica: responsável por apresentar as informações na tela e permitir a interação do usuário.
+Servidor Node.js: executa a lógica da aplicação e processa as solicitações recebidas pela interface.
+Banco de dados MariaDB/MySQL: responsável por armazenar e disponibilizar os dados utilizados pelo sistema, desde que a conexão esteja devidamente configurada.
+No processo de autenticação, o fluxo esperado ocorre da seguinte maneira:
+
+O usuário abre a página da aplicação.
+Em seguida, preenche os campos com suas credenciais de acesso.
+O servidor Node.js recebe a solicitação e inicia o processamento da autenticação.
+Se houver integração configurada, o servidor consulta o banco de dados para verificar as informações fornecidas.
+Por fim, a aplicação apresenta uma resposta indicando o resultado da tentativa de acesso.
+A realização dessas etapas depende da implementação existente, especialmente no que diz respeito à consulta ao banco e à validação dos dados informados.
+
+7. Etapas de desenvolvimento
+A construção do sistema foi organizada com o auxílio do Visual Studio Code, utilizado para a edição dos arquivos e a implementação do código JavaScript.
+
+O Node.js foi empregado na execução das operações do servidor, enquanto o XAMPP disponibilizou o ambiente para utilização do MariaDB/MySQL. Já o HeidiSQL foi utilizado como apoio para acessar, consultar e administrar as informações do banco.
+
+A combinação dessas ferramentas oferece uma oportunidade de compreender como uma aplicação web pode ser organizada e como seus diferentes componentes podem trabalhar de maneira integrada.
+
+8. Resultados obtidos
+Como resultado, o projeto apresenta uma aplicação inspirada visualmente no WhatsApp, com uma interface gráfica e um recurso de autenticação por login e senha, conforme as funcionalidades informadas.
+
+Durante o desenvolvimento, foram explorados conceitos relacionados à programação em JavaScript, à execução de código no servidor com Node.js e à utilização de bancos de dados relacionais.
+
+A confirmação de que todas as operações funcionam corretamente depende da realização de testes e da análise do código-fonte, principalmente em relação ao processo de autenticação e à conexão com o banco de dados.
+
+9. Conclusão
+A realização deste projeto proporcionou uma oportunidade de aprofundar os conhecimentos sobre ferramentas e tecnologias utilizadas no desenvolvimento de aplicações web. Com o Visual Studio Code, o Node.js, o XAMPP e o HeidiSQL, foi possível estudar diferentes aspectos envolvidos na criação de um sistema, desde a elaboração do código até o gerenciamento das informações.
+
+Além de desenvolver uma interface baseada em um aplicativo de mensagens conhecido, a atividade permitiu compreender a relevância da autenticação de usuários e da organização dos dados em uma aplicação.
+
+Portanto, o projeto representa uma experiência prática importante para relacionar os conteúdos estudados em aula com situações de desenvolvimento, ampliando a compreensão sobre a estrutura e o funcionamento de sistemas web.
+
+10. Referências
+Visual Studio Code: https://code.visualstudio.com/
+Node.js: https://nodejs.org/
+XAMPP: https://www.apachefriends.org/
+HeidiSQL: https://www.heidisql.com/
+MySQL: https://dev.mysql.com/doc/
+MariaDB: https://mariadb.org/
+
